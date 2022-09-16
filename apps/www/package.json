@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "db-push": "prisma db push",
+    "db-pull": "prisma db pull",
+    "studio": "prisma studio",
     "postinstall": "prisma generate"
   },
   "dependencies": {
@@ -31,7 +34,7 @@
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
     "autoprefixer": "^10.4.11",
-    "eslint": "8.22.0",
+    "eslint": "8.23.1",
     "eslint-config-next": "12.2.5",
     "postcss": "^8.4.16",
     "prisma": "^4.3.1",
